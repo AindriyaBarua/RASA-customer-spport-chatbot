@@ -11,14 +11,14 @@
   <img src="https://img.shields.io/github/repo-size/horizon733/customer-care-chatbot">
 </p>
 
-## 🛠 Features
+## Features
 - [x] Basic E-commerce FAQ
 - [x] Basic chitchats
 - [x] Out of Scope
 - [x] Contact us form
 - [x] Send Emails
 
-## ⚡ Quick Setup
+## Quick Setup
 - Initialize a virtual environment via:
 - Conda:
 ```bash
@@ -39,7 +39,7 @@ python -m pip install -U pip
 pip install rasa
 ```
 
-## 🧪 Testing
+## Testing
 - Train bot
 ```
 rasa train
@@ -56,7 +56,3 @@ rasa run --enable-api --cors "*" --debug[Optional] -p {PORT}[optional]
 ```
 rasa run actions -p {PORT}[Optional]
 ```
-
-## Tutorial links:
-- [Build customer care chatbot from scratch](https://youtu.be/u6xOgR3jEMU)
-- [Send email from Rasa chatbot](https://youtu.be/UcbNmZA65pw)
